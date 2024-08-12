@@ -1,7 +1,7 @@
 const products = [
     { id: 1, name: "Producto A", price: 150, description: "Producto A Descripción", image: "assets/negra-21-b1c72bbcebc7feb9b816405376283015-1024-1024.jpg" },
     { id: 2, name: "Producto B", price: 200, description: "Producto B Descripción", image: "assets/remera-adulto-unisex-blanca-sublimable.jpg" },
-    { id: 3, name: "Producto C", price: 250, description: "Producto C Descripción", image: "assets/images/product3.jpg" }
+    { id: 3, name: "Producto C", price: 250, description: "Producto C Descripción", image: "" }
 ];
 
 const filteredProducts = products.filter(product => product.price > 150);
@@ -16,8 +16,11 @@ function displayProducts(productList) {
         const card = document.createElement('div');
         card.classList.add('card');
 
+        const imgSrc = product.image;
+        console.log('Ruta de imagen generada:', imgSrc);
+
         card.innerHTML = `
-        <img src="${product.image}" alt="${product.name}">
+        <img src="${imgSrc}" alt="${product.name}">
             <h2>${product.name}</h2>
             <p>${product.description}</p>
             <p>Precio: $${product.price}</p>

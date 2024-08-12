@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "name": "Remera Negra",
+        "name": "Producto A",
         "price": 100,
         "description": "Descripción de remera"
     },
     {
         "id": 2,
-        "name": "Remera Blanca",
+        "name": "Producto B",
         "price": 200,
         "description": "Descripción de remera"
     }
