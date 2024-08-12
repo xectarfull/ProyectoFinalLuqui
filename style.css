@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #6b1a1a;
 }
 
 header, footer {
     background-color: #333;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px 0;
 }
@@ -17,15 +17,16 @@ main {
 }
 
 .card {
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
     border-radius: 5px;
     padding: 15px;
-    margin-bottom: 240px;
+    margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-header img {
-    vertical-align: middle;
-    margin-right: 10px;
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: rgb(133, 72, 72);
 }
