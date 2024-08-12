@@ -1,14 +1,16 @@
 [
     {
         "id": 1,
-        "name": "Producto A",
-        "price": 100,
-        "description": "Descripción de remera"
+        "name": "Remera Negra",
+        "price": 15000,
+        "description": "Remera de color Negro",
+        "image": "assets/negra-21-b1c72bbcebc7feb9b816405376283015-1024-1024.jpg"
     },
     {
         "id": 2,
-        "name": "Producto B",
-        "price": 200,
-        "description": "Descripción de remera"
+        "name": "Remera blanca",
+        "price": 20000,
+        "description": "Remera de color Blanco",
+        "image": "assets/remera-adulto-unisex-blanca-sublimable.jpg"
     }
 ]
